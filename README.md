@@ -21,10 +21,11 @@ Download the version of Terraform the works on your architecture.  In the case o
 
 ## Install Terraform
 
-cd ~/Downloads
-uzip terraform_0.12.9_darwin_amd64.zip
 
 Typically on Mac OSX, 3rd party binaries are stored in /usr/local/bin
+
+cd ~/Downloads
+unzip terraform_0.12.9_darwin_amd64.zip
 sudo su
 mv ~/Downloads/terraform /usr/local/bin/terraform
 exit --- exit the Super User shell
