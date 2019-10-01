@@ -2,16 +2,16 @@
 
 ## Environment
 
-The MongoDB Atlas provider require authentication, using the Public Key:Private Key.  Please these values in the following Environment
+The MongoDB Atlas provider requires authentication, using the Public Key:Private Key in the provider resource.  Please add these values to the Environment
 
-MONGODB_ATLAS_PRIVATE_KEY=47deadd0-ff04-dead-8839-1bc2dead3e1
-MONGODB_ATLAS_PUBLIC_KEY=ddeadehe
+export MONGODB_ATLAS_PRIVATE_KEY=47deadd0-ff04-dead-8839-1bc2dead3e1
+export MONGODB_ATLAS_PUBLIC_KEY=ddeadehe
 
 Place these in your .bashrc or .bash_profile depending on the flavor of Linux/Mac OSX you are using.  Once these are loaded:
 
 ## Test your environment
 
-#Environment Testing
+## Environment Testing
 env grep mongoDB
 
 ## Download Terraform
