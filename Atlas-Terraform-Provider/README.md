@@ -40,7 +40,7 @@ terraform version
 Terraform v0.12.9
 ```
 
-## Get a local copy of thie repo
+## Get a local copy of the repo
 git clone https://github.com/johndohoneyjr/Spectrum-Terraform-Vault-MongoDB-Provider.git
 
   
