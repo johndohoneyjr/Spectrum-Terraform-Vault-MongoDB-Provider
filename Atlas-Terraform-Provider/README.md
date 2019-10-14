@@ -32,11 +32,13 @@ mv ~/Downloads/terraform /usr/local/bin/terraform
 exit --- exit the Super User shell
 
 ## Test installation
+```
 which terraform
 /usr/local/bin/terraform
 
 terraform version
 Terraform v0.12.9
+```
 
 ## Get a local copy of thie repo
 git clone https://github.com/johndohoneyjr/Spectrum-Terraform-Vault-MongoDB-Provider.git
